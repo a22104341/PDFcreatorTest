@@ -36,6 +36,8 @@ public class magicController {
         return "success";
     }
 
+
+
     @PostMapping("/home")
     public String processMagicForm(@ModelAttribute Magic magic) {
         // Process the form submission, e.g., save to the database
