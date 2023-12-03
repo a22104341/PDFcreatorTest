@@ -16,8 +16,7 @@ public class Magic {
     @Column(name = "id", nullable = false)
     private long id;
 
-    @Column(name = "numberTest")
-    @ColumnDefault("0")
+    @Column(name = "numberTest", nullable = false)
     private Long numberTest; // Make sure this is Long if it's a nullable field
 
     @Column(name = "rndmTextTest", nullable = false)

@@ -31,6 +31,10 @@ public class magicController {
         return "home";
     }
 
+    @GetMapping("/success")
+    public String showSuccessPage() {
+        return "success";
+    }
 
     @PostMapping("/home")
     public String processMagicForm(@ModelAttribute Magic magic) {
