@@ -32,7 +32,7 @@ public class PdfGenerator {
 
     public void generatePdfFromHtml(String html) {
         try {
-            String outputFolder = "C:\\Users\\VyzeOP\\Desktop\\New folder" + File.separator + "thymeleaf.pdf";
+            String outputFolder = "C:\\Users\\VyzeOP\\Desktop\\TFC\\LearnSpring\\PDFcreatorTest\\createdPDFs" + File.separator + "thymeleaf.pdf";
             OutputStream outputStream = new FileOutputStream(outputFolder);
 
             ITextRenderer renderer = new ITextRenderer();
