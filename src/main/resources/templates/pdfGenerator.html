@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<h3 style="text-align: center; color: green">
+    <span th:text="'Welcome to ' + ${to} + '!'"></span>
+</h3>
+
+<!-- Display form data in the generated PDF -->
+<p th:text="'Number: ' + ${magic.numberTest}"></p>
+<p th:text="'Text: ' + ${magic.rndmTextTest}"></p>
+<p th:text="'Dropdown: ' + ${magic.dropDownTest}"></p>
+
+</body>
+</html>
