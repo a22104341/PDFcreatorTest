@@ -1,7 +1,7 @@
-package com.johnCena.PDFcreatorTest.mapper;
+package com.johncena.pdfcreatortest.mapper;
 
-import com.johnCena.PDFcreatorTest.entity.Magic;
-import com.johnCena.PDFcreatorTest.model.MagicModel;
+import com.johncena.pdfcreatortest.entity.Magic;
+import com.johncena.pdfcreatortest.model.MagicModel;
 import org.springframework.stereotype.Component;
 
 @Component

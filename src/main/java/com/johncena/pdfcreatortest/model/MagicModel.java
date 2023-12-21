@@ -1,4 +1,4 @@
-package com.johnCena.PDFcreatorTest.model;
+package com.johncena.pdfcreatortest.model;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;

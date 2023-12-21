@@ -1,7 +1,7 @@
-package com.johnCena.PDFcreatorTest.repository;
+package com.johncena.pdfcreatortest.repository;
 
 
-import com.johnCena.PDFcreatorTest.entity.Magic;
+import com.johncena.pdfcreatortest.entity.Magic;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

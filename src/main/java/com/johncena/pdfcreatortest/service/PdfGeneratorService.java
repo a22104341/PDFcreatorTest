@@ -1,6 +1,6 @@
-package com.johnCena.PDFcreatorTest.service;
+package com.johncena.pdfcreatortest.service;
 
-import com.johnCena.PDFcreatorTest.entity.Magic;
+import com.johncena.pdfcreatortest.entity.Magic;
 import org.springframework.stereotype.Service;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
@@ -13,7 +13,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 
 @Service
-public class PdfGenerator {
+public class PdfGeneratorService {
 
     public String parseThymeleafTemplate(Magic magic) {
         ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();

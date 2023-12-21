@@ -1,10 +1,10 @@
-package com.johnCena.PDFcreatorTest.controller;
+package com.johncena.pdfcreatortest.controller;
 
 
 
-import com.johnCena.PDFcreatorTest.entity.Magic;
-import com.johnCena.PDFcreatorTest.mapper.Mapper;
-import com.johnCena.PDFcreatorTest.service.MagicService;
+import com.johncena.pdfcreatortest.entity.Magic;
+import com.johncena.pdfcreatortest.mapper.Mapper;
+import com.johncena.pdfcreatortest.service.MagicService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,12 +14,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/magic")
-public class magicController {
+public class MagicController {
     private final MagicService magicService;
     private final Mapper mapper;
 
 
-    public magicController(MagicService magicService, Mapper mapper) {
+    public MagicController(MagicService magicService, Mapper mapper) {
         this.magicService = magicService;
         this.mapper = mapper;
     }

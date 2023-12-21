@@ -1,9 +1,8 @@
-package com.johnCena.PDFcreatorTest.entity;
+package com.johncena.pdfcreatortest.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.annotations.ColumnDefault;
 
 
 @Getter
